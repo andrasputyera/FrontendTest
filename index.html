@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Github User Finder</title>
+</head>
+<body>
+    <div class="app">
+        <div class="searchBox">
+            <div class="searchField">
+                <input id="inputValue" type="text" placeholder=" Search username...">
+                <button id="btn-search" class="button">Search</button>
+            </div>
+            <div id="error"> <p>Does not exist</p> </div>
+            <div id="info">
+                <div id="userProfile">
+                    <span>
+                        <img id="profilePic" alt="git pic">
+                    </span>
+                 <div class="userInfo">
+                    <p id="loginName"></p>
+                    <p id="fullName"><p>
+                    <p id="userBio"></p>  
+                </div>
+            </div>
+                <div id="infoTable">
+                    <div>
+                        <h3 class="underline">Repositories</h3>
+                        <div class="table">
+                            <div id="repoTable"></div>
+                        </div>  
+                        <div id="emptyRepos"> 
+                            <p>No repositories for this user</p>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>

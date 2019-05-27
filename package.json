@@ -1,0 +1,19 @@
+{
+  "name": "marfeel",
+  "version": "1.0.0",
+  "description": "Front End Test - GitHub User Finder",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "Andras Putyera",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-fetch": "^0.3.1",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/* body */
+
+body{
+  
+    background-color:rgb(231, 231, 231);
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato";
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Search container*/
+
+.searchBox{
+
+    width: 500px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color:white;
+    box-shadow: 10px 10px 10px rgb(174, 178, 182);
+
+}
+
+.searchField{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+       
+}
+
+/* Search button */
+
+.button{
+
+    width: 75px;
+    height: 35px;
+    background-image: linear-gradient(white,#EEEEEE);
+    border-radius: 5px;
+    border: 1px solid rgb(218, 218, 218);
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 12px;    
+}
+
+/* Search field */
+
+#inputValue {
+
+    height: 30px;
+    width: 370px;
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+    color: rgb(107, 107, 107); 
+    margin-right: 10px;
+    padding-left: 10px;
+    font-family: "Lato";
+    font-size: 12px;
+}
+
+/* Alert box for non-existing users */
+
+#error{
+
+    color: red;
+    width: auto;
+    height: 50px;
+    border: 1px solid rgb(192, 158, 158);
+    border-radius: 5px;
+    background-color: rgb(248, 213, 213);
+    font-family: "Lato";
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    display: none;
+    align-content: flex-start;   
+}
+
+/* User information box */
+
+#info{
+
+    width: 500px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: -20px;
+    display: none;
+
+}
+
+/* User information styling */
+
+#profilePic{
+
+    width:100px;
+    height:100px;
+    border-radius: 5px;
+}
+
+#userProfile{
+    
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.userInfo{
+    margin-left: 25px;
+}
+
+#loginName {
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px;
+}
+
+#fullName {
+    font-size: 30px;
+    font-style: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#userBio {
+    font-size: 14px;
+    margin: 0px;
+}
+
+/* Repository table styling*/
+
+#infoTable{
+    display: flex;
+    justify-content: center;
+}
+
+.tableContainer {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+tr td {
+    border-bottom: 2px solid black;
+    padding: 20px;
+
+}
+
+
+.table{
+    font-family: "Lato";
+    font-weight: bold;
+    width: 450px;
+}
+
+.repoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid rgb(218, 218, 218);
+    padding-bottom: 10px;
+}
+
+.repoTitle{
+    
+    margin: 0 0 0 20px;
+}
+
+.underline{
+
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.icons {
+    margin-right: 20px;
+}
+
+
+/* Icon details */
+
+.star{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 5px;  
+}
+
+.fork{
+    width: 15px;
+    height: 15px;
+}
+
+/* Alert box for profiles without any repos*/
+
+#emptyRepos{
+    display: none;
+    justify-content: center;
+    width: auto;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 65);
+    border-radius: 5px;
+    background-color: #F8F79E;
+    text-align: center;
+    font-family: "Lato";
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    
+}
